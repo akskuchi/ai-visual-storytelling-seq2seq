@@ -12,7 +12,7 @@
 ################################################################################
 
 import sys
-sys.path.insert(0,'../../../data_reader/')
+sys.path.insert(0,'data_reader/')
 import os
 import numpy as np
 import time
@@ -20,6 +20,7 @@ import urllib
 from numpy import random
 import image_data_reader as idr
 import tensorflow as tf
+#checking kaushik's comment
 import h5py
 #from caffe_classes import class_names
 
@@ -51,7 +52,7 @@ ydim = train_y.shape[1]
 #         .softmax(name='prob'))
 
 #In Python 3.5, change this to:
-net_data = np.load(open("bvlc_alexnet.npy", "rb"), encoding="latin1").item()
+net_data = np.load(open("dataset/models/alexnet/bvlc_alexnet.npy", "rb"), encoding="latin1").item()
 # #net_data = load("bvlc_alexnet.npy").item()
 
 def conv(input, kernel, biases, k_h, k_w, c_o, s_h, s_w,  padding="VALID", group=1):
@@ -184,8 +185,8 @@ sess.run(init)
 
 
 
-image_reader = idr.ImageDataReader(root_directory='../../sample_images',
-                                   mean_path='../../mean.json', batch_size = 64)
+image_reader = idr.ImageDataReader(root_directory='dataset/images/validate/',
+                                   mean_path='dataset/mean.json', batch_size = 64)
 
 
 image_embeddings = []
@@ -193,7 +194,7 @@ image_ids = []
 
 t=time.time()
 
-data_file = h5py.File('alexnet_image_features.hdf5','w')
+data_file = h5py.File('dataset/models/alexnet/alexnet_image_features_val.hdf5','w')
 
 while image_reader.has_next_element():
     current_batch, batch_image_ids = image_reader.next_batch()

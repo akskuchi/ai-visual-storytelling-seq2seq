@@ -4,15 +4,15 @@ import operator
 from unidecode import unidecode
 import h5py
 import os
-import glob
+from glob import glob
 
 
 class SIS_DataReader:
 
-    def __init__(self, path_to_file='../dataset/vist_dataset/training_data/sis/train.story-in-sequence.json'):
+    def __init__(self, path_to_file='dataset/sis/val.story-in-sequence.json'):
         self.path_to_file = path_to_file
 
-    def create_word_frequency_document(self, path_to_json_file='../dataset/word_frequencies.json'):
+    def create_word_frequency_document(self, path_to_json_file='dataset/word_frequencies.json'):
 
         data = json.load(open(self.path_to_file))
         annotations = data['annotations']
@@ -31,13 +31,13 @@ class SIS_DataReader:
         with open(path_to_json_file, 'w') as fp:
             json.dump(sorted_frequency, fp)
 
-    def get_n_most_frequent_words(self, word_frequency_file='../dataset/word_frequencies.json', vocabulary_size=10000):
+    def get_n_most_frequent_words(self, word_frequency_file='dataset/word_frequencies.json', vocabulary_size=10000):
 
         data = json.load(open(word_frequency_file))
         return data[0:vocabulary_size]
 
-    def generate_vocabulary(self, vocabulary_file='../dataset/vist2017_vocabulary.json',
-                            word_frequency_file='../dataset/word_frequencies.json', vocabulary_size=10000):
+    def generate_vocabulary(self, vocabulary_file='dataset/vist2017_vocabulary.json',
+                            word_frequency_file='dataset/word_frequencies.json', vocabulary_size=10000):
 
         data = self.get_n_most_frequent_words(word_frequency_file, vocabulary_size)
 
@@ -95,10 +95,10 @@ class SIS_DataReader:
         print(save_sent)
         return min_sentence_length
 
-    def sentences_to_index(self, vocabulary_file='../dataset/vist2017_vocabulary.json',
-                           image_embedding_file="../dataset/models/alexnet/alexnet_image_train_features.hdf5",
-                           save_file_path='../dataset/image_embeddings_to_sentence/stories_to_index_train.hdf5',
-                           images_directory='../dataset/vist_dataset/training_data/train_img',
+    def sentences_to_index(self, vocabulary_file='dataset/vist2017_vocabulary.json',
+                           image_embedding_file="dataset/models/alexnet/alexnet_image_features_val.hdf5",
+                           save_file_path='dataset/image_embeddings_to_sentence/stories_to_index_val.hdf5',
+                           images_directory='dataset/images/validate',
                            max_length=20):
 
         vocabulary = json.load(open(vocabulary_file))
@@ -254,9 +254,13 @@ class SIS_DataReader:
 
 
 object = SIS_DataReader()
+print 'initialized SIS DataReader'
 object.create_word_frequency_document()
+print 'created word frequency document'
 object.generate_vocabulary()
+print 'generated vocabulary'
 object.sentences_to_index()
+print 'sentences to index mapping done.'
 # #
 # data_file=h5py.File('../dataset/stories_to_index.hdf5','r')
 # story_id=data_file["story_ids"]

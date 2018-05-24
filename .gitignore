@@ -6,7 +6,10 @@ __pycache__/
 .idea/
 .DS_Store
 vist_dataset/
+*.hdf5
 results/temp/
+dataset/images/
+dataset/sis/
 dataset/vist_sis/
 trained_models/
 Graph/
