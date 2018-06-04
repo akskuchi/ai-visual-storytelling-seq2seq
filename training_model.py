@@ -21,7 +21,7 @@ valid_generator = ModelDataGenerator(valid_dataset, vocab_json, 64)
 words_to_idx = vocab_json['words_to_idx']
 
 batch_size = 13
-epochs = 25  # Number of epochs to train for.
+epochs = 1  # Number of epochs to train for.
 image_encoder_latent_dim = 512  # Latent dimensionality of the encoding space.
 sentence_encoder_latent_dim = 512
 
