@@ -37,7 +37,7 @@ class ImageDataReader:
         self.current_index += self.batch_size
 
         for i in range(len(current_paths)):
-            image = cv2.imread(current_paths[i],1)
+            image = cv2.imread(current_paths[i], 1)
             image = cv2.cvtColor(image, cv2.COLOR_RGB2BGR)
             image = image_util.resize_in_aspect_to_ration(image=image,image_size=self.image_size)
             image = image_util.center_crop_image(image).astype(float)
@@ -45,9 +45,12 @@ class ImageDataReader:
             image -= self.mean
             #cv2.imshow("n",image)
             #cv2.waitKey(0)
-            result.append(image)
+            result.append(np.asarray(image))
 
-        return np.array(result), np.array(current_image_ids)
+        print('len of result and result_0: ')
+        print(len(result))
+        print(len(result[0][0]))
+        return np.array(np.string_(result)), np.array(np.string_(current_image_ids))
 
     def has_next_element(self):
         return self.current_index < len(self.image_paths)

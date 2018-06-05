@@ -185,7 +185,7 @@ sess.run(init)
 
 
 
-image_reader = idr.ImageDataReader(root_directory='dataset/images/validate/',
+image_reader = idr.ImageDataReader(root_directory='dataset/images/val_sample/',
                                    mean_path='dataset/mean.json', batch_size = 64)
 
 
@@ -194,7 +194,7 @@ image_ids = []
 
 t=time.time()
 
-data_file = h5py.File('dataset/models/alexnet/alexnet_image_features_val.hdf5','w')
+data_file = h5py.File('dataset/models/alexnet/alexnet_image_features_val_sample.hdf5','w')
 
 while image_reader.has_next_element():
     current_batch, batch_image_ids = image_reader.next_batch()
@@ -206,7 +206,7 @@ print(len(image_embeddings))
 print(len(image_ids))
 
 data_file.create_dataset("embeddings", data = image_embeddings)
-data_file.create_dataset("image_ids", data = image_ids)
+data_file.create_dataset("image_ids", data = image_ids, )
 
 print(time.time()-t)
 

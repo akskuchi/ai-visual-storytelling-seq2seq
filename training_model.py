@@ -14,8 +14,8 @@ from util import util
 from keras.utils import plot_model
 
 vocab_json = json.load(open('./dataset/vist2017_vocabulary.json'))
-train_dataset = h5py.File('./dataset/image_embeddings_to_sentence/stories_to_index_train.hdf5', 'r')
-valid_dataset = h5py.File('./dataset/image_embeddings_to_sentence/stories_to_index_val.hdf5', 'r')
+train_dataset = h5py.File('./dataset/image_embeddings_to_sentence/stories_to_index_train_sample.hdf5', 'r')
+valid_dataset = h5py.File('./dataset/image_embeddings_to_sentence/stories_to_index_val_sample.hdf5', 'r')
 train_generator = ModelDataGenerator(train_dataset, vocab_json, 64)
 valid_generator = ModelDataGenerator(valid_dataset, vocab_json, 64)
 words_to_idx = vocab_json['words_to_idx']

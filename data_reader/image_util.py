@@ -23,14 +23,14 @@ def center_crop_image(image):
         width = image.shape[1]
 
         if height >= width:
-            center = height / 2
-            left = center - width / 2
-            right = center + width / 2
+            center = height // 2
+            left = center - width // 2
+            right = center + width // 2
             crop_img = image[left:right + 1, 0:width]
         else:
-            center = width / 2
-            left = center - height / 2
-            right = center + height / 2
+            center = width // 2
+            left = center - height // 2
+            right = center + height // 2
             crop_img = image[0:height, left:right + 1]
 
         return crop_img

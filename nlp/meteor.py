@@ -1,9 +1,8 @@
-#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
 import subprocess, threading
-from scorer import Scorer
-from reference import Reference
+from .scorer import Scorer
+from .reference import Reference
 
 
 class MeteorError(Exception):

@@ -13,7 +13,7 @@ from nlp import nlp
 from seq2seqbuilder import Seq2SeqBuilder
 from nlp.scores import Scores, Score_Method
 import time
-import commands
+import subprocess
 
 
 class Inference:
@@ -530,11 +530,11 @@ class NLPScores(Callback):
                               hypotheses_file_name=hypotheses_filename)
 
         # calculating Meteor
-        status, output_meteor = commands.getstatusoutput(
+        status, output_meteor = subprocess.getstatusoutput(
             "java -Xmx2G -jar nlp/meteor-1.5.jar " + hypotheses_filename + " " + references_filename + " -t hter -l en -norm")
 
         # Calculating BLEU score
-        status, output_bleu = commands.getstatusoutput(
+        status, output_bleu = subprocess.getstatusoutput(
             "perl ./nlp/multi-bleu.perl " + references_filename + " < " + hypotheses_filename)
 
         text_file = open('./results/temp/' + "bleu_" + self.dataset_type + "_epoch_" + str(epoch), "w")

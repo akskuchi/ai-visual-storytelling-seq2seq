@@ -1,7 +1,7 @@
 from nltk.translate.bleu_score import sentence_bleu
 from enum import Enum
 import h5py
-from meteor import MeteorScorer, MeteorReference
+from .meteor import MeteorScorer, MeteorReference
 
 
 class Score_Method(Enum):

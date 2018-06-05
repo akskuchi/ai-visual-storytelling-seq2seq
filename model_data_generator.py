@@ -64,6 +64,7 @@ class ModelDataGenerator:
 
             # TODO: we should remove end
             temp_story = self.story_sentences[story_index][j].tolist()
+            temp_story = list(map(int, temp_story))
             end_index = temp_story.index(2)
             temp_story[end_index] = 0
             decoder_batch_input_data[j] = np.array(temp_story)
@@ -71,7 +72,7 @@ class ModelDataGenerator:
             sentence = self.story_sentences[story_index][j]
             for word_index in range(len(sentence)):
                 if word_index > 0:
-                    decoder_batch_target_data[j, word_index - 1, sentence[word_index]] = 1
+                    decoder_batch_target_data[j, word_index - 1, int(sentence[word_index])] = 1
 
         if sentence_embedding:
             return encoder_batch_input_data, text_encoder_batch_input_data, decoder_batch_input_data, decoder_batch_target_data

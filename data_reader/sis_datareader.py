@@ -96,9 +96,9 @@ class SIS_DataReader:
         return min_sentence_length
 
     def sentences_to_index(self, vocabulary_file='dataset/vist2017_vocabulary.json',
-                           image_embedding_file="dataset/models/alexnet/alexnet_image_features_val.hdf5",
-                           save_file_path='dataset/image_embeddings_to_sentence/stories_to_index_val.hdf5',
-                           images_directory='dataset/images/validate',
+                           image_embedding_file="dataset/models/alexnet/alexnet_image_features_val_sample.hdf5",
+                           save_file_path='dataset/image_embeddings_to_sentence/stories_to_index_val_sample.hdf5',
+                           images_directory='dataset/images/val_sample',
                            max_length=20):
 
         vocabulary = json.load(open(vocabulary_file))
@@ -134,27 +134,27 @@ class SIS_DataReader:
             img_id5, order5 = int(annotations[i + 4][0]["photo_flickr_id"]), annotations[i + 4][0][
                 "worker_arranged_photo_order"]
 
-            if not (img_hash.has_key(str(img_id1))):
+            if ((str(img_id1)) not in img_hash):
                 image1=np.zeros(4096)
             else:
                 image1=img_hash[str(img_id1)]
 
-            if not (img_hash.has_key(str(img_id2))):
+            if ((str(img_id2)) not in img_hash):
                 image2 = np.zeros(4096)
             else:
                 image2 = img_hash[str(img_id2)]
 
-            if not (img_hash.has_key(str(img_id3))):
+            if ((str(img_id3)) not in img_hash):
                 image3 = np.zeros(4096)
             else:
                 image3 = img_hash[str(img_id3)]
 
-            if not (img_hash.has_key(str(img_id4))):
+            if ((str(img_id4)) not in img_hash):
                 image4 = np.zeros(4096)
             else:
                 image4 = img_hash[str(img_id4)]
 
-            if not (img_hash.has_key(str(img_id5))):
+            if ((str(img_id5)) not in img_hash):
                 image5 = np.zeros(4096)
             else:
                 image5 = img_hash[str(img_id5)]
@@ -203,11 +203,11 @@ class SIS_DataReader:
             story_images_paths.append(ordered_image_path_names)
 
         data_file = h5py.File(save_file_path, 'w')
-        data_file.create_dataset("story_ids", data = story_ids)
-        data_file.create_dataset("story_sentences", data = story_sentences)
-        data_file.create_dataset("image_embeddings", data = story_images)
-        data_file.create_dataset("image_ids", data = story_images_ids)
-        data_file.create_dataset("image_paths", data = story_images_paths)
+        data_file.create_dataset("story_ids", data = np.string_(story_ids))
+        data_file.create_dataset("story_sentences", data = np.string_(story_sentences))
+        data_file.create_dataset("image_embeddings", data = np.string_(story_images))
+        data_file.create_dataset("image_ids", data = np.string_(story_images_ids))
+        data_file.create_dataset("image_paths", data = np.string_(story_images_paths))
 
     def sentences_to_index_helper(self, sentence, word_to_idx, max_length):
         words = sentence.split()
@@ -217,7 +217,7 @@ class SIS_DataReader:
             if len(result_sentence) == max_length:
                 break
             else:
-                if (word_to_idx.has_key(word)):
+                if ((word) in word_to_idx):
                     result_sentence.append(word_to_idx[word])
                 else:
                     result_sentence.append(word_to_idx["<UNK>"])
@@ -254,13 +254,13 @@ class SIS_DataReader:
 
 
 object = SIS_DataReader()
-print 'initialized SIS DataReader'
+print('initialized SIS DataReader')
 object.create_word_frequency_document()
-print 'created word frequency document'
+print('created word frequency document')
 object.generate_vocabulary()
-print 'generated vocabulary'
+print('generated vocabulary')
 object.sentences_to_index()
-print 'sentences to index mapping done.'
+print('sentences to index mapping done.')
 # #
 # data_file=h5py.File('../dataset/stories_to_index.hdf5','r')
 # story_id=data_file["story_ids"]
