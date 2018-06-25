@@ -1,0 +1,11 @@
+Mon Jun 18 18:00:00 EEST 2018
+start
+slurmstepd: error: Step 32757401.0 exceeded memory limit (33395704 > 32768000), being killed
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: Exceeded job memory limit
+slurmstepd: error: *** STEP 32757401.0 ON gpu23 CANCELLED AT 2018-06-18T18:04:58 ***
+srun: error: gpu23: task 0: Killed
+srun: Terminating job step 32757401.0
+something broke
+end
+Mon Jun 18 18:05:00 EEST 2018

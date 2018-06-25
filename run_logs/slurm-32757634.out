@@ -1,0 +1,25 @@
+Mon Jun 18 18:09:00 EEST 2018
+start
+slurmstepd: error: Step 32757634.0 exceeded memory limit (69123512 > 65536000), being killed
+slurmstepd: error: Exceeded job memory limit
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 32757634.0 ON gpu27 CANCELLED AT 2018-06-18T18:19:59 ***
+slurmstepd: error: Exceeded job memory limit
+slurmstepd: error: *** JOB 32757634 ON gpu27 CANCELLED AT 2018-06-18T18:19:59 ***
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "UTF-8",
+	LANG = "en_GB.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+Job has already finished for job 32757634
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "UTF-8",
+	LANG = "en_GB.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").

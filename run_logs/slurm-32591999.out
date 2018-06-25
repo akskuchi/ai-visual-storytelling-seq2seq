@@ -1,0 +1,1381 @@
+Wed Jun 13 15:12:14 EEST 2018
+2018-06-13 15:12:18.788364: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-06-13 15:12:19.030272: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: Tesla K80 major: 3 minor: 7 memoryClockRate(GHz): 0.8235
+pciBusID: 0000:06:00.0
+totalMemory: 11.17GiB freeMemory: 11.10GiB
+2018-06-13 15:12:19.030525: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:06:00.0, compute capability: 3.7)
+Corrupt JPEG data: 158 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 7568 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 6300 extraneous bytes before marker 0xd9
+Premature end of JPEG file
+Premature end of JPEG file
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+dataset/images/train_full/222200246.jpg
+len of result and result_0: 
+63
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+dataset/images/train_full/209758240.jpg
+len of result and result_0: 
+63
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+dataset/images/train_full/61784062.jpg
+len of result and result_0: 
+63
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+dataset/images/train_full/15207444.jpg
+len of result and result_0: 
+63
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+Corrupt JPEG data: 32 extraneous bytes before marker 0xd4
+Corrupt JPEG data: 5598 extraneous bytes before marker 0xd7
+Corrupt JPEG data: premature end of data segment
+Corrupt JPEG data: 160 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 114 extraneous bytes before marker 0xd9
+Corrupt JPEG data: premature end of data segment
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+dataset/images/train_full/5127621127.jpg
+len of result and result_0: 
+63
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+dataset/images/train_full/6631084125.jpg
+dataset/images/train_full/1931856289.jpg
+len of result and result_0: 
+62
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+Corrupt JPEG data: 224 extraneous bytes before marker 0xd9
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 32591999.0 ON gpu22 CANCELLED AT 2018-06-13T16:32:17 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 32591999 ON gpu22 CANCELLED AT 2018-06-13T16:32:17 DUE TO TIME LIMIT ***
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "UTF-8",
+	LANG = "en_GB.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+Job has already finished for job 32591999

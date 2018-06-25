@@ -223,7 +223,7 @@ class Inference:
     def predict_all(self, batch_size, sentence_length=22, references_file_name='', hypotheses_file_name='',
                     sentence_embedding=True, no_duplicates=False, beam_search=False, beam_size=3, attention=False):
 
-        data_generator = ModelDataGenerator(self.dataset_file, self.vocab_json, batch_size)
+        data_generator = ModelDataGenerator(self.dataset_file, None, self.vocab_json, batch_size)
         count = 0
 
         references = []
@@ -309,7 +309,7 @@ class Inference:
     def predict_all_beam_search(self, batch_size, beam_size=3, sentence_length=22, references_file_name='',
                                 hypotheses_file_name=''):
 
-        data_generator = ModelDataGenerator(self.dataset_file, self.vocab_json, batch_size)
+        data_generator = ModelDataGenerator(self.dataset_file, None, self.vocab_json, batch_size)
         references = []
         hypotheses = []
 

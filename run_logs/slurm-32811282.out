@@ -1,0 +1,17 @@
+Wed 20 Jun 04:31:18 EEST 2018
+start
+/scratch/cs/imagedb/picsom/databases/vist/conda_vist/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Using TensorFlow backend.
+/scratch/cs/imagedb/picsom/databases/vist/conda_vist/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+Traceback (most recent call last):
+  File "training_model.py", line 4, in <module>
+    from result_visualisation import NLPScores
+  File "/scratch/cs/imagedb/picsom/databases/vist/download/vist-baseline/result_visualisation.py", line 10, in <module>
+    from nltk.translate.bleu_score import sentence_bleu
+ModuleNotFoundError: No module named 'nltk'
+srun: error: gpu21: task 0: Exited with exit code 1
+srun: Terminating job step 32811282.0
+trained model
+Wed 20 Jun 04:31:37 EEST 2018

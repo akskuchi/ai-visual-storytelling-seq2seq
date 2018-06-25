@@ -1,0 +1,27 @@
+Tue Jun 19 12:28:06 EEST 2018
+start
+/scratch/cs/imagedb/picsom/databases/vist/conda_vist/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+initialized SIS DataReader
+created word frequency document
+Traceback (most recent call last):
+  File "data_reader/sis_datareader.py", line 267, in <module>
+    object.generate_vocabulary()
+  File "data_reader/sis_datareader.py", line 43, in generate_vocabulary
+    data = self.get_n_most_frequent_words(word_frequency_file, vocabulary_size)
+  File "data_reader/sis_datareader.py", line 37, in get_n_most_frequent_words
+    data = json.load(open(word_frequency_file))
+  File "/scratch/cs/imagedb/picsom/databases/vist/conda_vist/lib/python3.6/json/__init__.py", line 299, in load
+    parse_constant=parse_constant, object_pairs_hook=object_pairs_hook, **kw)
+  File "/scratch/cs/imagedb/picsom/databases/vist/conda_vist/lib/python3.6/json/__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "/scratch/cs/imagedb/picsom/databases/vist/conda_vist/lib/python3.6/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/scratch/cs/imagedb/picsom/databases/vist/conda_vist/lib/python3.6/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+srun: error: ivb9: task 0: Exited with exit code 1
+srun: Terminating job step 32782514.0
+something broke
+end
+Tue Jun 19 12:28:17 EEST 2018

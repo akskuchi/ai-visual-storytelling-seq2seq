@@ -1,0 +1,41 @@
+Wed Jun 13 14:55:18 EEST 2018
+2018-06-13 14:55:50.844155: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-06-13 14:55:51.076047: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: Tesla K80 major: 3 minor: 7 memoryClockRate(GHz): 0.8235
+pciBusID: 0000:06:00.0
+totalMemory: 11.17GiB freeMemory: 11.10GiB
+2018-06-13 14:55:51.076286: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:06:00.0, compute capability: 3.7)
+/scratch/cs/imagedb/picsom/databases/vist/conda_vist/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+/scratch/cs/imagedb/picsom/databases/vist/conda_vist/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+len of result and result_0: 
+0
+Traceback (most recent call last):
+  File "dataset/models/alexnet/myalexnet_forward_newtf.py", line 201, in <module>
+    outputs = sess.run(fc7, feed_dict={x: current_batch})
+  File "/scratch/cs/imagedb/picsom/databases/vist/conda_vist/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 889, in run
+    run_metadata_ptr)
+  File "/scratch/cs/imagedb/picsom/databases/vist/conda_vist/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1096, in _run
+    % (np_val.shape, subfeed_t.name, str(subfeed_t.get_shape())))
+ValueError: Cannot feed value of shape (0,) for Tensor 'Placeholder:0', which has shape '(?, 227, 227, 3)'
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "UTF-8",
+	LANG = "en_GB.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+srun: error: gpu22: task 0: Exited with exit code 1
+srun: Terminating job step 32591890.0
+something broke
+Wed Jun 13 14:56:04 EEST 2018
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "UTF-8",
+	LANG = "en_GB.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").

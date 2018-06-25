@@ -12,3 +12,4 @@ num_samples,duration,num_epochs,loss,val_loss,num_layers,cell_type,activation,hi
 200775,8:18:24h,25,1.65418497207,-1,2,gru,tanh,1024,0.0001,5.0,adam,./loss_logs/2018-02-22_17:31:22.csv,./trained_models/2018-02-22_17:31:22-2018-02-23_01:49:46.h5,False,
 200775,7:04:44h,25,2.33397364972,-1,2,gru,tanh,1024,0.0001,5.0,adam,./loss_logs/2018-02-26_15:53:55.csv,./trained_models/2018-02-26_15:53:55-2018-02-26_22:58:39.h5,False,
 200775,0:11:57h,1,5.001621483123669,-1,2,gru,tanh,512,0.0001,5.0,adam,./loss_logs/2018-06-05_14:37:39.csv,./trained_models/2018-06-05_14:37:39-2018-06-05_14:49:36.h5,False,
+1405425,14:23:29h,4,2.9155260776696066,-1,2,gru,tanh,512,0.0001,5.0,adam,./loss_logs/2018-06-22_05:31:47.csv,./trained_models/2018-06-22_05:31:47-2018-06-22_19:55:16.h5,False,

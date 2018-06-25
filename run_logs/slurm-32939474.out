@@ -1,0 +1,42 @@
+Sat Jun 23 20:51:45 EEST 2018
+start
+2018-06-23 20:52:21.396262: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-06-23 20:52:21.923190: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: Tesla P100-PCIE-16GB major: 6 minor: 0 memoryClockRate(GHz): 1.3285
+pciBusID: 0000:03:00.0
+totalMemory: 15.90GiB freeMemory: 15.61GiB
+2018-06-23 20:52:21.923425: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla P100-PCIE-16GB, pci bus id: 0000:03:00.0, compute capability: 6.0)
+/scratch/cs/imagedb/picsom/databases/vist/conda_vist/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Using TensorFlow backend.
+/scratch/cs/imagedb/picsom/databases/vist/conda_vist/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+encoder inputs shape:  (?, ?, 4096)
+num:  2
+Traceback (most recent call last):
+  File "inference_model.py", line 31, in <module>
+    sentence_embedding=True, attention=True)
+  File "/scratch/cs/imagedb/picsom/databases/vist/download/vist-baseline/result_visualisation.py", line 226, in predict_all
+    data_generator = ModelDataGenerator(self.dataset_file, self.vocab_json, batch_size)
+TypeError: __init__() missing 1 required positional argument: 'batch_size'
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "UTF-8",
+	LANG = "en_GB.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+srun: error: gpu26: task 0: Exited with exit code 1
+srun: Terminating job step 32939474.0
+Sat Jun 23 20:52:47 EEST 2018
+end
+stories generated for val dataset
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "UTF-8",
+	LANG = "en_GB.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").

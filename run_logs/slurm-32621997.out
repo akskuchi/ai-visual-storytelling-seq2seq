@@ -1,0 +1,12 @@
+Thu 14 Jun 00:33:02 EEST 2018
+2018-06-14 00:33:06.111094: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-06-14 00:33:06.393043: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: Tesla P100-PCIE-16GB major: 6 minor: 0 memoryClockRate(GHz): 1.3285
+pciBusID: 0000:03:00.0
+totalMemory: 15.90GiB freeMemory: 15.61GiB
+2018-06-14 00:33:06.393267: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla P100-PCIE-16GB, pci bus id: 0000:03:00.0, compute capability: 6.0)
+Corrupt JPEG data: 158 extraneous bytes before marker 0xd9
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** JOB 32621997 ON gpu27 CANCELLED AT 2018-06-14T00:45:30 ***
+slurmstepd: error: *** STEP 32621997.0 ON gpu27 CANCELLED AT 2018-06-14T00:45:30 ***
+Job has already finished for job 32621997

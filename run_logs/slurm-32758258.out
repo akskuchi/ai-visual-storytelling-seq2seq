@@ -1,0 +1,11 @@
+Mon Jun 18 18:29:59 EEST 2018
+start
+slurmstepd: error: Step 32758258.0 exceeded memory limit (35817464 > 32768000), being killed
+slurmstepd: error: Exceeded job memory limit
+slurmstepd: error: *** STEP 32758258.0 ON pe82 CANCELLED AT 2018-06-18T18:34:59 ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: pe82: task 0: Killed
+srun: Terminating job step 32758258.0
+something broke
+end
+Mon Jun 18 18:35:02 EEST 2018

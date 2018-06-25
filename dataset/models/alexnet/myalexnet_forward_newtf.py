@@ -28,7 +28,7 @@ train_x = np.zeros((1, 227,227,3)).astype(np.float32)
 train_y = np.zeros((1, 1000))
 xdim = train_x.shape[1:]
 ydim = train_y.shape[1]
-
+#from_and_to = sys.argv[1]
 
 
 ################################################################################
@@ -184,8 +184,9 @@ sess = tf.Session()
 sess.run(init)
 
 
+_rd = 'dataset/images/test/'# + from_and_to
 
-image_reader = idr.ImageDataReader(root_directory='dataset/images/train_sample/',
+image_reader = idr.ImageDataReader(root_directory=_rd,
                                    mean_path='dataset/mean.json', batch_size = 64)
 
 
@@ -194,7 +195,9 @@ image_ids = []
 
 t=time.time()
 
-data_file = h5py.File('dataset/models/alexnet/alexnet_image_features_train_sample.hdf5','w')
+#save_to = 'dataset/models/alexnet/alexnet_image_features_train_' + from_and_to + '.hdf5'
+
+data_file = h5py.File('dataset/models/alexnet/alexnet_image_features_test.hdf5', 'w')
 
 while image_reader.has_next_element():
     current_batch, batch_image_ids = image_reader.next_batch()
@@ -206,7 +209,7 @@ print(len(image_embeddings))
 print(len(image_ids))
 
 data_file.create_dataset("embeddings", data = image_embeddings)
-data_file.create_dataset("image_ids", data = image_ids, )
+data_file.create_dataset("image_ids", data = image_ids)
 
 print(time.time()-t)
 

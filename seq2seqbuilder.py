@@ -118,7 +118,7 @@ class Seq2SeqBuilder:
     def get_embedding_layer(self, words_to_idx, word_embedding_size, num_tokens, mask_zero, name):
         embeddings_index = {}
         # GLOVE word weights for 6 billion words for word_embedding_size = 300
-        f = open('glove.6B.300d.txt')
+        f = open('glove.6B.300d.txt', encoding="utf-8")
 
         # Getting the glove coefficients for our vocabulary from the file
         for line in f:

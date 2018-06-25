@@ -5,18 +5,22 @@ from nlp import nlp
 
 
 class ModelDataGenerator:
-    def __init__(self, dataset, vocab_json, batch_size, num_samples_per_epoch=None):
-
-        self.dataset = dataset
+    def __init__(self, dataset_img, dataset_sents, vocab_json, batch_size, num_samples_per_epoch=None):
         self.vocab_json = vocab_json
         self.batch_size = batch_size
+        
+        if dataset_sents is None:
+            self.dataset = dataset_img
 
-        # Shape: (num_samples, number_of_images_in_sample, image_embedding_length)
-        self.image_embeddings = self.dataset["image_embeddings"]
+            # Shape: (num_samples, number_of_images_in_sample, image_embedding_length)
+            self.image_embeddings = self.dataset["image_embeddings"]
 
-        # Shape: (num_samples, number_of_sentences_in_sample, number_of_words_in_sentence)
-        self.story_sentences = self.dataset["story_sentences"]
-
+            # Shape: (num_samples, number_of_sentences_in_sample, number_of_words_in_sentence)
+            self.story_sentences = self.dataset["story_sentences"]
+        else:
+            self.image_embeddings = dataset_img['dataset_1'][:]
+            self.story_sentences = dataset_sents['dataset_1'][:]
+            
         self.story_length = self.story_sentences.shape[1]
         self.image_embeddings_size = self.image_embeddings.shape[2]
         self.sentences_length = self.story_sentences.shape[2]

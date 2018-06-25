@@ -14,14 +14,15 @@ from util import util
 from keras.utils import plot_model
 
 vocab_json = json.load(open('./dataset/vist2017_vocabulary.json'))
-train_dataset = h5py.File('./dataset/image_embeddings_to_sentence/stories_to_index_train_sample.hdf5', 'r')
+train_dataset_img = h5py.File('img_embeds.h5', 'r')
+train_dataset_sent = h5py.File('sent_embeds.h5', 'r')
 valid_dataset = h5py.File('./dataset/image_embeddings_to_sentence/stories_to_index_val_sample.hdf5', 'r')
-train_generator = ModelDataGenerator(train_dataset, vocab_json, 64)
-valid_generator = ModelDataGenerator(valid_dataset, vocab_json, 64)
+train_generator = ModelDataGenerator(train_dataset_img, train_dataset_sent, vocab_json, 64)
+valid_generator = ModelDataGenerator(valid_dataset, None, vocab_json, 64)
 words_to_idx = vocab_json['words_to_idx']
 
 batch_size = 13
-epochs = 1  # Number of epochs to train for.
+epochs = 7  # Number of epochs to train for.
 image_encoder_latent_dim = 512  # Latent dimensionality of the encoding space.
 sentence_encoder_latent_dim = 512
 

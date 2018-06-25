@@ -1,0 +1,1033 @@
+Sat Jun 23 21:01:30 EEST 2018
+start
+2018-06-23 21:01:54.606859: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-06-23 21:01:55.243594: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: Tesla P100-PCIE-16GB major: 6 minor: 0 memoryClockRate(GHz): 1.3285
+pciBusID: 0000:03:00.0
+totalMemory: 15.90GiB freeMemory: 15.61GiB
+2018-06-23 21:01:55.243832: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla P100-PCIE-16GB, pci bus id: 0000:03:00.0, compute capability: 6.0)
+encoder inputs shape:  (?, ?, 4096)
+num:  2
+batch_number:  1
+50
+batch_number:  2
+50
+batch_number:  3
+50
+batch_number:  4
+50
+batch_number:  5
+50
+batch_number:  6
+50
+batch_number:  7
+50
+batch_number:  8
+50
+batch_number:  9
+50
+batch_number:  10
+50
+batch_number:  11
+50
+batch_number:  12
+50
+batch_number:  13
+50
+batch_number:  14
+50
+batch_number:  15
+50
+batch_number:  16
+50
+batch_number:  17
+50
+batch_number:  18
+50
+batch_number:  19
+50
+batch_number:  20
+50
+batch_number:  21
+50
+batch_number:  22
+50
+batch_number:  23
+50
+batch_number:  24
+50
+batch_number:  25
+50
+batch_number:  26
+50
+batch_number:  27
+50
+batch_number:  28
+50
+batch_number:  29
+50
+batch_number:  30
+50
+batch_number:  31
+50
+batch_number:  32
+50
+batch_number:  33
+50
+batch_number:  34
+50
+batch_number:  35
+50
+batch_number:  36
+50
+batch_number:  37
+50
+batch_number:  38
+50
+batch_number:  39
+50
+batch_number:  40
+50
+batch_number:  41
+50
+batch_number:  42
+50
+batch_number:  43
+50
+batch_number:  44
+50
+batch_number:  45
+50
+batch_number:  46
+50
+batch_number:  47
+50
+batch_number:  48
+50
+batch_number:  49
+50
+batch_number:  50
+50
+batch_number:  51
+50
+batch_number:  52
+50
+batch_number:  53
+50
+batch_number:  54
+50
+batch_number:  55
+50
+batch_number:  56
+50
+batch_number:  57
+50
+batch_number:  58
+50
+batch_number:  59
+50
+batch_number:  60
+50
+batch_number:  61
+50
+batch_number:  62
+50
+batch_number:  63
+50
+batch_number:  64
+50
+batch_number:  65
+50
+batch_number:  66
+50
+batch_number:  67
+50
+batch_number:  68
+50
+batch_number:  69
+50
+batch_number:  70
+50
+batch_number:  71
+50
+batch_number:  72
+50
+batch_number:  73
+50
+batch_number:  74
+50
+batch_number:  75
+50
+batch_number:  76
+50
+batch_number:  77
+50
+batch_number:  78
+50
+batch_number:  79
+50
+batch_number:  80
+50
+batch_number:  81
+50
+batch_number:  82
+50
+batch_number:  83
+50
+batch_number:  84
+50
+batch_number:  85
+50
+batch_number:  86
+50
+batch_number:  87
+50
+batch_number:  88
+50
+batch_number:  89
+50
+batch_number:  90
+50
+batch_number:  91
+50
+batch_number:  92
+50
+batch_number:  93
+50
+batch_number:  94
+50
+batch_number:  95
+50
+batch_number:  96
+50
+batch_number:  97
+50
+batch_number:  98
+50
+batch_number:  99
+50
+batch_number:  100
+50
+batch_number:  101
+50
+batch_number:  102
+50
+batch_number:  103
+50
+batch_number:  104
+50
+batch_number:  105
+50
+batch_number:  106
+50
+batch_number:  107
+50
+batch_number:  108
+50
+batch_number:  109
+50
+batch_number:  110
+50
+batch_number:  111
+50
+batch_number:  112
+50
+batch_number:  113
+50
+batch_number:  114
+50
+batch_number:  115
+50
+batch_number:  116
+50
+batch_number:  117
+50
+batch_number:  118
+50
+batch_number:  119
+50
+batch_number:  120
+50
+batch_number:  121
+50
+batch_number:  122
+50
+batch_number:  123
+50
+batch_number:  124
+50
+batch_number:  125
+50
+batch_number:  126
+50
+batch_number:  127
+50
+batch_number:  128
+50
+batch_number:  129
+50
+batch_number:  130
+50
+batch_number:  131
+50
+batch_number:  132
+50
+batch_number:  133
+50
+batch_number:  134
+50
+batch_number:  135
+50
+batch_number:  136
+50
+batch_number:  137
+50
+batch_number:  138
+50
+batch_number:  139
+50
+batch_number:  140
+50
+batch_number:  141
+50
+batch_number:  142
+50
+batch_number:  143
+50
+batch_number:  144
+50
+batch_number:  145
+50
+batch_number:  146
+50
+batch_number:  147
+50
+batch_number:  148
+50
+batch_number:  149
+50
+batch_number:  150
+50
+batch_number:  151
+50
+batch_number:  152
+50
+batch_number:  153
+50
+batch_number:  154
+50
+batch_number:  155
+50
+batch_number:  156
+50
+batch_number:  157
+50
+batch_number:  158
+50
+batch_number:  159
+50
+batch_number:  160
+50
+batch_number:  161
+50
+batch_number:  162
+50
+batch_number:  163
+50
+batch_number:  164
+50
+batch_number:  165
+50
+batch_number:  166
+50
+batch_number:  167
+50
+batch_number:  168
+50
+batch_number:  169
+50
+batch_number:  170
+50
+batch_number:  171
+50
+batch_number:  172
+50
+batch_number:  173
+50
+batch_number:  174
+50
+batch_number:  175
+50
+batch_number:  176
+50
+batch_number:  177
+50
+batch_number:  178
+50
+batch_number:  179
+50
+batch_number:  180
+50
+batch_number:  181
+50
+batch_number:  182
+50
+batch_number:  183
+50
+batch_number:  184
+50
+batch_number:  185
+50
+batch_number:  186
+50
+batch_number:  187
+50
+batch_number:  188
+50
+batch_number:  189
+50
+batch_number:  190
+50
+batch_number:  191
+50
+batch_number:  192
+50
+batch_number:  193
+50
+batch_number:  194
+50
+batch_number:  195
+50
+batch_number:  196
+50
+batch_number:  197
+50
+batch_number:  198
+50
+batch_number:  199
+50
+batch_number:  200
+50
+batch_number:  201
+50
+batch_number:  202
+50
+batch_number:  203
+50
+batch_number:  204
+50
+batch_number:  205
+50
+batch_number:  206
+50
+batch_number:  207
+50
+batch_number:  208
+50
+batch_number:  209
+50
+batch_number:  210
+50
+batch_number:  211
+50
+batch_number:  212
+50
+batch_number:  213
+50
+batch_number:  214
+50
+batch_number:  215
+50
+batch_number:  216
+50
+batch_number:  217
+50
+batch_number:  218
+50
+batch_number:  219
+50
+batch_number:  220
+50
+batch_number:  221
+50
+batch_number:  222
+50
+batch_number:  223
+50
+batch_number:  224
+50
+batch_number:  225
+50
+batch_number:  226
+50
+batch_number:  227
+50
+batch_number:  228
+50
+batch_number:  229
+50
+batch_number:  230
+50
+batch_number:  231
+50
+batch_number:  232
+50
+batch_number:  233
+50
+batch_number:  234
+50
+batch_number:  235
+50
+batch_number:  236
+50
+batch_number:  237
+50
+batch_number:  238
+50
+batch_number:  239
+50
+batch_number:  240
+50
+batch_number:  241
+50
+batch_number:  242
+50
+batch_number:  243
+50
+batch_number:  244
+50
+batch_number:  245
+50
+batch_number:  246
+50
+batch_number:  247
+50
+batch_number:  248
+50
+batch_number:  249
+50
+batch_number:  250
+50
+batch_number:  251
+50
+batch_number:  252
+50
+batch_number:  253
+50
+batch_number:  254
+50
+batch_number:  255
+50
+batch_number:  256
+50
+batch_number:  257
+50
+batch_number:  258
+50
+batch_number:  259
+50
+batch_number:  260
+50
+batch_number:  261
+50
+batch_number:  262
+50
+batch_number:  263
+50
+batch_number:  264
+50
+batch_number:  265
+50
+batch_number:  266
+50
+batch_number:  267
+50
+batch_number:  268
+50
+batch_number:  269
+50
+batch_number:  270
+50
+batch_number:  271
+50
+batch_number:  272
+50
+batch_number:  273
+50
+batch_number:  274
+50
+batch_number:  275
+50
+batch_number:  276
+50
+batch_number:  277
+50
+batch_number:  278
+50
+batch_number:  279
+50
+batch_number:  280
+50
+batch_number:  281
+50
+batch_number:  282
+50
+batch_number:  283
+50
+batch_number:  284
+50
+batch_number:  285
+50
+batch_number:  286
+50
+batch_number:  287
+50
+batch_number:  288
+50
+batch_number:  289
+50
+batch_number:  290
+50
+batch_number:  291
+50
+batch_number:  292
+50
+batch_number:  293
+50
+batch_number:  294
+50
+batch_number:  295
+50
+batch_number:  296
+50
+batch_number:  297
+50
+batch_number:  298
+50
+batch_number:  299
+50
+batch_number:  300
+50
+batch_number:  301
+50
+batch_number:  302
+50
+batch_number:  303
+50
+batch_number:  304
+50
+batch_number:  305
+50
+batch_number:  306
+50
+batch_number:  307
+50
+batch_number:  308
+50
+batch_number:  309
+50
+batch_number:  310
+50
+batch_number:  311
+50
+batch_number:  312
+50
+batch_number:  313
+50
+batch_number:  314
+50
+batch_number:  315
+50
+batch_number:  316
+50
+batch_number:  317
+50
+batch_number:  318
+50
+batch_number:  319
+50
+batch_number:  320
+50
+batch_number:  321
+50
+batch_number:  322
+50
+batch_number:  323
+50
+batch_number:  324
+50
+batch_number:  325
+50
+batch_number:  326
+50
+batch_number:  327
+50
+batch_number:  328
+50
+batch_number:  329
+50
+batch_number:  330
+50
+batch_number:  331
+50
+batch_number:  332
+50
+batch_number:  333
+50
+batch_number:  334
+50
+batch_number:  335
+50
+batch_number:  336
+50
+batch_number:  337
+50
+batch_number:  338
+50
+batch_number:  339
+50
+batch_number:  340
+50
+batch_number:  341
+50
+batch_number:  342
+50
+batch_number:  343
+50
+batch_number:  344
+50
+batch_number:  345
+50
+batch_number:  346
+50
+batch_number:  347
+50
+batch_number:  348
+50
+batch_number:  349
+50
+batch_number:  350
+50
+batch_number:  351
+50
+batch_number:  352
+50
+batch_number:  353
+50
+batch_number:  354
+50
+batch_number:  355
+50
+batch_number:  356
+50
+batch_number:  357
+50
+batch_number:  358
+50
+batch_number:  359
+50
+batch_number:  360
+50
+batch_number:  361
+50
+batch_number:  362
+50
+batch_number:  363
+50
+batch_number:  364
+50
+batch_number:  365
+50
+batch_number:  366
+50
+batch_number:  367
+50
+batch_number:  368
+50
+batch_number:  369
+50
+batch_number:  370
+50
+batch_number:  371
+50
+batch_number:  372
+50
+batch_number:  373
+50
+batch_number:  374
+50
+batch_number:  375
+50
+/scratch/cs/imagedb/picsom/databases/vist/conda_vist/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Using TensorFlow backend.
+/scratch/cs/imagedb/picsom/databases/vist/conda_vist/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+batch_number:  376
+50
+batch_number:  377
+50
+batch_number:  378
+50
+batch_number:  379
+50
+batch_number:  380
+50
+batch_number:  381
+50
+batch_number:  382
+50
+batch_number:  383
+50
+batch_number:  384
+50
+batch_number:  385
+50
+batch_number:  386
+50
+batch_number:  387
+50
+batch_number:  388
+50
+batch_number:  389
+50
+batch_number:  390
+50
+batch_number:  391
+50
+batch_number:  392
+50
+batch_number:  393
+50
+batch_number:  394
+50
+batch_number:  395
+50
+batch_number:  396
+50
+batch_number:  397
+50
+batch_number:  398
+50
+batch_number:  399
+50
+batch_number:  400
+50
+batch_number:  401
+50
+batch_number:  402
+50
+batch_number:  403
+50
+batch_number:  404
+50
+batch_number:  405
+50
+batch_number:  406
+50
+batch_number:  407
+50
+batch_number:  408
+50
+batch_number:  409
+50
+batch_number:  410
+50
+batch_number:  411
+50
+batch_number:  412
+50
+batch_number:  413
+50
+batch_number:  414
+50
+batch_number:  415
+50
+batch_number:  416
+50
+batch_number:  417
+50
+batch_number:  418
+50
+batch_number:  419
+50
+batch_number:  420
+50
+batch_number:  421
+50
+batch_number:  422
+50
+batch_number:  423
+50
+batch_number:  424
+50
+batch_number:  425
+50
+batch_number:  426
+50
+batch_number:  427
+50
+batch_number:  428
+50
+batch_number:  429
+50
+batch_number:  430
+50
+batch_number:  431
+50
+batch_number:  432
+50
+batch_number:  433
+50
+batch_number:  434
+50
+batch_number:  435
+50
+batch_number:  436
+50
+batch_number:  437
+50
+batch_number:  438
+50
+batch_number:  439
+50
+batch_number:  440
+50
+batch_number:  441
+50
+batch_number:  442
+50
+batch_number:  443
+50
+batch_number:  444
+50
+batch_number:  445
+50
+batch_number:  446
+50
+batch_number:  447
+50
+batch_number:  448
+50
+batch_number:  449
+50
+batch_number:  450
+50
+batch_number:  451
+50
+batch_number:  452
+50
+batch_number:  453
+50
+batch_number:  454
+50
+batch_number:  455
+50
+batch_number:  456
+50
+batch_number:  457
+50
+batch_number:  458
+50
+batch_number:  459
+50
+batch_number:  460
+50
+batch_number:  461
+50
+batch_number:  462
+50
+batch_number:  463
+50
+batch_number:  464
+50
+batch_number:  465
+50
+batch_number:  466
+50
+batch_number:  467
+50
+batch_number:  468
+50
+batch_number:  469
+50
+batch_number:  470
+50
+batch_number:  471
+50
+batch_number:  472
+50
+batch_number:  473
+50
+batch_number:  474
+50
+batch_number:  475
+50
+batch_number:  476
+50
+batch_number:  477
+50
+batch_number:  478
+50
+batch_number:  479
+50
+batch_number:  480
+50
+batch_number:  481
+50
+batch_number:  482
+50
+batch_number:  483
+50
+batch_number:  484
+50
+batch_number:  485
+50
+batch_number:  486
+50
+batch_number:  487
+50
+batch_number:  488
+50
+batch_number:  489
+50
+batch_number:  490
+50
+batch_number:  491
+50
+batch_number:  492
+50
+batch_number:  493
+50
+batch_number:  494
+50
+batch_number:  495
+50
+batch_number:  496
+50
+batch_number:  497
+50
+batch_number:  498
+50
+batch_number:  499
+50
+29.72681620121002
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "UTF-8",
+	LANG = "en_GB.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+Sat Jun 23 21:32:04 EEST 2018
+end
+stories generated for val dataset
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "UTF-8",
+	LANG = "en_GB.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").

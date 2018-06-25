@@ -1,0 +1,105 @@
+Wed Jun 13 15:00:14 EEST 2018
+2018-06-13 15:00:18.780333: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-06-13 15:00:19.017316: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: Tesla K80 major: 3 minor: 7 memoryClockRate(GHz): 0.8235
+pciBusID: 0000:06:00.0
+totalMemory: 11.17GiB freeMemory: 11.10GiB
+2018-06-13 15:00:19.017551: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:06:00.0, compute capability: 3.7)
+/scratch/cs/imagedb/picsom/databases/vist/conda_vist/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+/scratch/cs/imagedb/picsom/databases/vist/conda_vist/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+/dataset/images/train_full/447197440.jpg
+/dataset/images/train_full/6154647330.jpg
+/dataset/images/train_full/4242274940.jpg
+/dataset/images/train_full/28932903.jpg
+/dataset/images/train_full/902169.jpg
+/dataset/images/train_full/24510447.jpg
+/dataset/images/train_full/59977.jpg
+/dataset/images/train_full/23890758.jpg
+/dataset/images/train_full/4448589146.jpg
+/dataset/images/train_full/412132892.jpg
+/dataset/images/train_full/625084.jpg
+/dataset/images/train_full/1845636324.jpg
+/dataset/images/train_full/243881338.jpg
+/dataset/images/train_full/6063522207.jpg
+/dataset/images/train_full/248415467.jpg
+/dataset/images/train_full/407472603.jpg
+/dataset/images/train_full/721780929.jpg
+/dataset/images/train_full/73119804.jpg
+/dataset/images/train_full/37843282.jpg
+/dataset/images/train_full/80717409.jpg
+/dataset/images/train_full/155666971.jpg
+/dataset/images/train_full/5253574570.jpg
+/dataset/images/train_full/4807593579.jpg
+/dataset/images/train_full/379864255.jpg
+/dataset/images/train_full/6723711777.jpg
+/dataset/images/train_full/452978336.jpg
+/dataset/images/train_full/129177848.jpg
+/dataset/images/train_full/5543317722.jpg
+/dataset/images/train_full/7505667354.jpg
+/dataset/images/train_full/93439766.jpg
+/dataset/images/train_full/7091048.jpg
+/dataset/images/train_full/106209050.jpg
+/dataset/images/train_full/4292393819.jpg
+/dataset/images/train_full/5421997300.jpg
+/dataset/images/train_full/5313489963.jpg
+/dataset/images/train_full/4601826.jpg
+/dataset/images/train_full/129409999.jpg
+/dataset/images/train_full/4395000069.jpg
+/dataset/images/train_full/4341301838.jpg
+/dataset/images/train_full/4291573362.jpg
+/dataset/images/train_full/5491407911.jpg
+/dataset/images/train_full/5407190597.jpg
+/dataset/images/train_full/5135132113.jpg
+/dataset/images/train_full/6951366629.jpg
+/dataset/images/train_full/86359842.jpg
+/dataset/images/train_full/24950014.jpg
+/dataset/images/train_full/447478008.jpg
+/dataset/images/train_full/522525571.jpg
+/dataset/images/train_full/4813478693.jpg
+/dataset/images/train_full/4416817305.jpg
+/dataset/images/train_full/1931857419.jpg
+/dataset/images/train_full/5954240599.jpg
+/dataset/images/train_full/13662091.jpg
+/dataset/images/train_full/18018687933.jpg
+/dataset/images/train_full/80047197.jpg
+/dataset/images/train_full/5134925961.jpg
+/dataset/images/train_full/439698672.jpg
+/dataset/images/train_full/5135731736.jpg
+/dataset/images/train_full/5068860186.jpg
+/dataset/images/train_full/190432831.jpg
+/dataset/images/train_full/6611239883.jpg
+/dataset/images/train_full/8585123034.jpg
+/dataset/images/train_full/374127607.jpg
+/dataset/images/train_full/4318057273.jpg
+len of result and result_0: 
+0
+Traceback (most recent call last):
+  File "dataset/models/alexnet/myalexnet_forward_newtf.py", line 201, in <module>
+    outputs = sess.run(fc7, feed_dict={x: current_batch})
+  File "/scratch/cs/imagedb/picsom/databases/vist/conda_vist/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 889, in run
+    run_metadata_ptr)
+  File "/scratch/cs/imagedb/picsom/databases/vist/conda_vist/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1096, in _run
+    % (np_val.shape, subfeed_t.name, str(subfeed_t.get_shape())))
+ValueError: Cannot feed value of shape (0,) for Tensor 'Placeholder:0', which has shape '(?, 227, 227, 3)'
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "UTF-8",
+	LANG = "en_GB.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+srun: error: gpu22: task 0: Exited with exit code 1
+srun: Terminating job step 32591978.0
+something broke
+Wed Jun 13 15:00:25 EEST 2018
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "UTF-8",
+	LANG = "en_GB.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").

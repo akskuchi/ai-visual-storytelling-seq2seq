@@ -1,16 +1,28 @@
 #!/bin/bash
 
-#SBATCH --time=03:59:00          ## wallclock time hh:mm:ss
-#SBATCH --gres=gpushort:teslak80:1    ## one K80 requested
+#SBATCH --time=00:45:00 --mem-per-cpu=256000
 
-module load anaconda3/5.1.0-gpu
+module load anaconda3/5.1.0-gpu CUDA/9.0.176 cuDNN/6.0-CUDA-8.0.61
 
 source activate /scratch/cs/imagedb/picsom/databases/vist/conda_vist
 
+date
+
+echo "start"
+
 cd /scratch/cs/imagedb/picsom/databases/vist/download/vist-baseline
 
-srun --gres=gpushort:1 python data_reader/sis_datareader.py
+srun python data_reader/sis_datareader.py train/split_11
+
+OUT=$?
+if [ $OUT -eq 0 ];then
+   echo "mapping image features to respective annotations done"
+else
+   echo "something broke"
+fi
+
+echo "end"
 
 source deactivate
 
-echo "mapping image features to respective annotations"
+date

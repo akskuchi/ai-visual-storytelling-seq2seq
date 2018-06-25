@@ -7,8 +7,8 @@ from keras.utils import plot_model
 
 # The learning phase flag is a bool tensor (0 = test, 1 = train) to be passed as input to any Keras function that uses a different behavior at train time and test time.
 K.set_learning_phase(0)
-dataset_type = "val_sample"
-model_name = "2018-06-05_14:37:39-2018-06-05_14:49:36"
+dataset_type = "val"
+model_name = "2018-06-22_05:31:47-2018-06-22_19:55:16"
 model_file_name = "./trained_models/" + model_name + ".h5"
 
 # model_file_name = "trained_models/2018-01-18_17:39:24-2018-01-20_18:50:39:image_to_text_gru.h5"

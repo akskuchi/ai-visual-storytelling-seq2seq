@@ -1,0 +1,23 @@
+Thu Jun 21 11:14:53 EEST 2018
+start
+/scratch/cs/imagedb/picsom/databases/vist/conda_vist/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Using TensorFlow backend.
+/scratch/cs/imagedb/picsom/databases/vist/conda_vist/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+num samples:  281085
+train steps:  21622
+Traceback (most recent call last):
+  File "training_model.py", line 57, in <module>
+    recurrent_dropout=0.0, input_dropout=0.0, include_sentence_encoder=True, attention=True)
+  File "/scratch/cs/imagedb/picsom/databases/vist/download/vist-baseline/seq2seqbuilder.py", line 203, in build_encoder_decoder_model
+    name='sentence_embedding_layer')
+  File "/scratch/cs/imagedb/picsom/databases/vist/download/vist-baseline/seq2seqbuilder.py", line 124, in get_embedding_layer
+    for line in f:
+  File "/scratch/cs/imagedb/picsom/databases/vist/conda_vist/lib/python3.6/encodings/ascii.py", line 26, in decode
+    return codecs.ascii_decode(input, self.errors)[0]
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xe2 in position 123: ordinal not in range(128)
+srun: error: gpu24: task 0: Exited with exit code 1
+srun: Terminating job step 32892292.0
+something broke
+Thu Jun 21 11:17:35 EEST 2018

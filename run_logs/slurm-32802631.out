@@ -1,0 +1,44 @@
+Tue Jun 19 17:50:26 EEST 2018
+start
+[94m
++--------------------------------------------------------------------------------+
+|                                                                                |
+|                            HDF5 MANIPULATOR: MERGE                             |
+|                                                                                |
++--------------------------------------------------------------------------------+
+[0m
+The following input files were found:
+
+	 - /scratch/cs/imagedb/picsom/databases/vist/download/vist-baseline/dataset/image_embeddings_to_sentence/stories_to_index_train_split_00.hdf5
+	 - /scratch/cs/imagedb/picsom/databases/vist/download/vist-baseline/dataset/image_embeddings_to_sentence/stories_to_index_train_split_01.hdf5
+	 - /scratch/cs/imagedb/picsom/databases/vist/download/vist-baseline/dataset/image_embeddings_to_sentence/stories_to_index_train_split_02.hdf5
+	 - /scratch/cs/imagedb/picsom/databases/vist/download/vist-baseline/dataset/image_embeddings_to_sentence/stories_to_index_train_split_03.hdf5
+	 - /scratch/cs/imagedb/picsom/databases/vist/download/vist-baseline/dataset/image_embeddings_to_sentence/stories_to_index_train_split_04.hdf5
+	 - /scratch/cs/imagedb/picsom/databases/vist/download/vist-baseline/dataset/image_embeddings_to_sentence/stories_to_index_train_split_05.hdf5
+	 - /scratch/cs/imagedb/picsom/databases/vist/download/vist-baseline/dataset/image_embeddings_to_sentence/stories_to_index_train_split_06.hdf5
+	 - /scratch/cs/imagedb/picsom/databases/vist/download/vist-baseline/dataset/image_embeddings_to_sentence/stories_to_index_train_split_07.hdf5
+	 - /scratch/cs/imagedb/picsom/databases/vist/download/vist-baseline/dataset/image_embeddings_to_sentence/stories_to_index_train_split_08.hdf5
+	 - /scratch/cs/imagedb/picsom/databases/vist/download/vist-baseline/dataset/image_embeddings_to_sentence/stories_to_index_train_split_09.hdf5
+	 - /scratch/cs/imagedb/picsom/databases/vist/download/vist-baseline/dataset/image_embeddings_to_sentence/stories_to_index_train_split_10.hdf5
+	 - /scratch/cs/imagedb/picsom/databases/vist/download/vist-baseline/dataset/image_embeddings_to_sentence/stories_to_index_train_split_11.hdf5
+	 - /scratch/cs/imagedb/picsom/databases/vist/download/vist-baseline/dataset/image_embeddings_to_sentence/stories_to_index_train_split_12.hdf5
+
+The following datasets were found in /scratch/cs/imagedb/picsom/databases/vist/download/vist-baseline/dataset/image_embeddings_to_sentence/stories_to_index_train_split_00.hdf5:
+
+	 - image_embeddings: [|S8]     -> (40155, 5, 4096)
+	 - image_ids:        [|S11]    -> (40155, 5)
+	 - image_paths:      [|S45]    -> (40155, 13100)
+	 - story_ids:        [|S5]     -> (40155,)
+	 - story_sentences:  [|S5]     -> (40155, 5, 22)
+
+Adding entries from 40155 in [0:40155]
+
+Adding entries from 80310 in [40155:80310]
+
+Adding entries from 120465 in [80310:120465]
+
+Adding entries from 160620 in [120465:160620]
+[91m
+ERROR: Different shapes for dataset: image_paths. [0m
+Tue Jun 19 18:11:24 EEST 2018
+end

@@ -1,0 +1,161 @@
+Wed Jun 13 12:32:03 EEST 2018
+2018-06-13 12:32:09.513045: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-06-13 12:32:09.733586: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: Tesla P100-PCIE-16GB major: 6 minor: 0 memoryClockRate(GHz): 1.3285
+pciBusID: 0000:83:00.0
+totalMemory: 15.90GiB freeMemory: 15.61GiB
+2018-06-13 12:32:09.733850: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla P100-PCIE-16GB, pci bus id: 0000:83:00.0, compute capability: 6.0)
+/scratch/cs/imagedb/picsom/databases/vist/conda_vist/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+/scratch/cs/imagedb/picsom/databases/vist/conda_vist/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+dataset/images/train_full/222200246.jpg
+Traceback (most recent call last):
+  File "dataset/models/alexnet/myalexnet_forward_newtf.py", line 200, in <module>
+    current_batch, batch_image_ids = image_reader.next_batch()
+  File "data_reader/image_data_reader.py", line 44, in next_batch
+    image = image_util.resize_in_aspect_to_ration(image=image,image_size=self.image_size)
+  File "data_reader/image_util.py", line 6, in resize_in_aspect_to_ration
+    height = image.shape[0]
+AttributeError: 'NoneType' object has no attribute 'shape'
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "UTF-8",
+	LANG = "en_GB.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "UTF-8",
+	LANG = "en_GB.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+srun: error: gpu27: task 0: Exited with exit code 1
+srun: Terminating job step 32591497.0
+something broke
+Wed Jun 13 12:40:11 EEST 2018
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "UTF-8",
+	LANG = "en_GB.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "UTF-8",
+	LANG = "en_GB.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").

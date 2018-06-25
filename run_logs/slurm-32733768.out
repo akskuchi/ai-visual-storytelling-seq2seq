@@ -1,0 +1,451 @@
+Mon Jun 18 13:59:11 EEST 2018
+start
+2018-06-18 13:59:14.439405: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-06-18 13:59:14.682527: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: Tesla K80 major: 3 minor: 7 memoryClockRate(GHz): 0.8235
+pciBusID: 0000:85:00.0
+totalMemory: 11.17GiB freeMemory: 11.10GiB
+2018-06-18 13:59:14.682768: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:85:00.0, compute capability: 3.7)
+Premature end of JPEG file
+Corrupt JPEG data: 114 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 224 extraneous bytes before marker 0xd9
+Premature end of JPEG file
+Corrupt JPEG data: 197 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 8 extraneous bytes before marker 0xd9
+/scratch/cs/imagedb/picsom/databases/vist/conda_vist/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+/scratch/cs/imagedb/picsom/databases/vist/conda_vist/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+64 64
+227
+64 128
+227
+64 192
+227
+64 256
+227
+64 320
+227
+64 384
+227
+64 448
+227
+64 512
+227
+64 576
+227
+64 640
+227
+64 704
+227
+64 768
+227
+64 832
+227
+64 896
+227
+64 960
+227
+64 1024
+227
+64 1088
+227
+64 1152
+227
+64 1216
+227
+64 1280
+227
+64 1344
+227
+64 1408
+227
+64 1472
+227
+64 1536
+227
+64 1600
+227
+64 1664
+227
+64 1728
+227
+64 1792
+227
+64 1856
+227
+64 1920
+227
+64 1984
+227
+64 2048
+227
+64 2112
+227
+64 2176
+227
+64 2240
+227
+64 2304
+227
+64 2368
+227
+64 2432
+227
+64 2496
+227
+64 2560
+227
+64 2624
+227
+64 2688
+227
+64 2752
+227
+64 2816
+227
+64 2880
+227
+64 2944
+227
+64 3008
+227
+64 3072
+227
+64 3136
+227
+64 3200
+227
+64 3264
+227
+64 3328
+227
+64 3392
+227
+64 3456
+227
+64 3520
+227
+64 3584
+227
+64 3648
+227
+64 3712
+227
+64 3776
+227
+bad_image ->  dataset/images/train/split_10/22672166.jpg
+63 3840
+227
+64 3904
+227
+64 3968
+227
+64 4032
+227
+64 4096
+227
+64 4160
+227
+64 4224
+227
+64 4288
+227
+64 4352
+227
+64 4416
+227
+64 4480
+227
+64 4544
+227
+64 4608
+227
+64 4672
+227
+64 4736
+227
+64 4800
+227
+64 4864
+227
+64 4928
+227
+64 4992
+227
+64 5056
+227
+64 5120
+227
+64 5184
+227
+64 5248
+227
+64 5312
+227
+64 5376
+227
+64 5440
+227
+64 5504
+227
+64 5568
+227
+64 5632
+227
+64 5696
+227
+64 5760
+227
+64 5824
+227
+64 5888
+227
+64 5952
+227
+64 6016
+227
+64 6080
+227
+64 6144
+227
+64 6208
+227
+64 6272
+227
+64 6336
+227
+64 6400
+227
+64 6464
+227
+64 6528
+227
+64 6592
+227
+64 6656
+227
+64 6720
+227
+64 6784
+227
+64 6848
+227
+64 6912
+227
+64 6976
+227
+64 7040
+227
+64 7104
+227
+64 7168
+227
+64 7232
+227
+64 7296
+227
+64 7360
+227
+64 7424
+227
+64 7488
+227
+64 7552
+227
+64 7616
+227
+64 7680
+227
+64 7744
+227
+64 7808
+227
+64 7872
+227
+64 7936
+227
+64 8000
+227
+64 8064
+227
+64 8128
+227
+64 8192
+227
+64 8256
+227
+64 8320
+227
+64 8384
+227
+64 8448
+227
+64 8512
+227
+64 8576
+227
+64 8640
+227
+64 8704
+227
+64 8768
+227
+64 8832
+227
+64 8896
+227
+64 8960
+227
+64 9024
+227
+64 9088
+227
+64 9152
+227
+64 9216
+227
+64 9280
+227
+64 9344
+227
+64 9408
+227
+64 9472
+227
+64 9536
+227
+64 9600
+227
+64 9664
+227
+64 9728
+227
+64 9792
+227
+64 9856
+227
+64 9920
+227
+64 9984
+227
+64 10048
+227
+64 10112
+227
+64 10176
+227
+64 10240
+227
+64 10304
+227
+64 10368
+227
+64 10432
+227
+64 10496
+227
+64 10560
+227
+64 10624
+227
+64 10688
+227
+64 10752
+227
+64 10816
+227
+64 10880
+227
+64 10944
+227
+64 11008
+227
+64 11072
+227
+64 11136
+227
+64 11200
+227
+64 11264
+227
+64 11328
+227
+64 11392
+227
+64 11456
+227
+64 11520
+227
+64 11584
+227
+64 11648
+227
+64 11712
+227
+64 11776
+227
+64 11840
+227
+64 11904
+227
+64 11968
+227
+64 12032
+227
+64 12096
+227
+64 12160
+227
+64 12224
+227
+64 12288
+227
+64 12352
+227
+64 12416
+227
+64 12480
+227
+64 12544
+227
+64 12608
+227
+64 12672
+227
+64 12736
+227
+64 12800
+227
+64 12864
+227
+64 12928
+227
+64 12992
+227
+64 13056
+227
+22 13120
+227
+13077
+13078
+3691.6639397144318
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "UTF-8",
+	LANG = "en_GB.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+extracted features of images using AlexNet
+end
+Mon Jun 18 15:00:52 EEST 2018
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "UTF-8",
+	LANG = "en_GB.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").

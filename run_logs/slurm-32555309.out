@@ -1,0 +1,708 @@
+Package                Version    
+---------------------- -----------
+backcall               0.1.0      
+bleach                 1.5.0      
+certifi                2018.4.16  
+cycler                 0.10.0     
+decorator              4.3.0      
+entrypoints            0.2.3      
+enum34                 1.1.6      
+h5py                   2.7.1      
+html5lib               0.9999999  
+ipykernel              4.8.2      
+ipython                6.4.0      
+ipython-genutils       0.2.0      
+jedi                   0.12.0     
+Jinja2                 2.10       
+jsonschema             2.6.0      
+jupyter-client         5.2.3      
+jupyter-core           4.4.0      
+jupyterlab             0.32.1     
+jupyterlab-launcher    0.10.5     
+Keras                  2.1.1      
+kiwisolver             1.0.1      
+Markdown               2.6.11     
+MarkupSafe             1.0        
+matplotlib             2.2.2      
+mistune                0.8.3      
+nbconvert              5.3.1      
+nbformat               4.4.0      
+notebook               5.5.0      
+numpy                  1.14.4     
+opencv-python          3.4.1.15   
+pandocfilters          1.4.2      
+parso                  0.2.1      
+pexpect                4.6.0      
+pickleshare            0.7.4      
+pip                    10.0.1     
+prompt-toolkit         1.0.15     
+protobuf               3.5.2.post1
+ptyprocess             0.5.2      
+Pygments               2.2.0      
+pyparsing              2.2.0      
+python-dateutil        2.7.3      
+pytz                   2018.4     
+PyYAML                 3.12       
+pyzmq                  17.0.0     
+scipy                  1.1.0      
+Send2Trash             1.5.0      
+setuptools             39.2.0     
+simplegeneric          0.8.1      
+six                    1.11.0     
+tensorflow-gpu         1.4.0      
+tensorflow-tensorboard 0.4.0      
+terminado              0.8.1      
+testpath               0.3.1      
+tornado                5.0.2      
+traitlets              4.3.2      
+Unidecode              1.0.22     
+wcwidth                0.1.7      
+Werkzeug               0.14.1     
+wheel                  0.31.1     
+2018-06-12 12:11:02.740996: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-06-12 12:11:02.982460: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: Tesla K80 major: 3 minor: 7 memoryClockRate(GHz): 0.8235
+pciBusID: 0000:06:00.0
+totalMemory: 11.17GiB freeMemory: 11.10GiB
+2018-06-12 12:11:02.982707: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:06:00.0, compute capability: 3.7)
+Corrupt JPEG data: 204 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 652 extraneous bytes before marker 0xd9
+/scratch/cs/imagedb/picsom/databases/vist/conda_vist/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+/scratch/cs/imagedb/picsom/databases/vist/conda_vist/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+64
+227
+len of result and result_0: 
+44
+227
+13100
+13100
+4038.8315682411194
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "UTF-8",
+	LANG = "en_GB.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+extracted features of images using AlexNet
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "UTF-8",
+	LANG = "en_GB.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").

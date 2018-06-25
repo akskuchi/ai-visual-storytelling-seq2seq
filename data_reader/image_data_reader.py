@@ -14,6 +14,7 @@ class ImageDataReader:
         self.image_size = image_size
         self.image_paths, self.image_ids = self.get_all_filenames(self.root_directory)
         self.current_index = 0
+        
 
     def get_all_filenames(self, root_directory):
         images_path_names = [y for x in os.walk(root_directory) for y in glob(os.path.join(x[0], "*.jpg"))]
@@ -37,8 +38,13 @@ class ImageDataReader:
         self.current_index += self.batch_size
 
         for i in range(len(current_paths)):
-            image = cv2.imread(current_paths[i], 1)
+            image = cv2.imread(current_paths[i])
+            if image is None:
+                print('bad_image -> ', current_paths[i])
+                continue
+            
             image = cv2.cvtColor(image, cv2.COLOR_RGB2BGR)
+                
             image = image_util.resize_in_aspect_to_ration(image=image,image_size=self.image_size)
             image = image_util.center_crop_image(image).astype(float)
             #print(self.mean.shape)
@@ -47,9 +53,13 @@ class ImageDataReader:
             #cv2.waitKey(0)
             result.append(np.asarray(image))
 
-        print('len of result and result_0: ')
-        print(len(result))
-        print(len(result[0][0]))
+        print(len(result), self.current_index)
+        if len(result) > 0:
+            print(len(result[0][0]))
+        
+        #if self.current_index % 3200 == 0 or self.current_index == self.batch_size:
+        #    print(self.current_index, ' number of images processed')
+        
         return np.array(np.string_(result)), np.array(np.string_(current_image_ids))
 
     def has_next_element(self):
